@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://vercelcn.com/ads-widget.js"></script>
+  <title>搜索影片 - 日韩好剧</title>
+  <meta name="description" content="日韩好剧搜索页面，可按关键词、栏目与年份查找日韩电视剧、高清电影和热播影视内容。">
+  <meta name="keywords" content="影片搜索,日韩电视剧搜索,高清影视搜索,日韩电视剧,日韩剧大全,免费在线观看,高清视频,日本电视剧,韩国电视剧,日韩剧情片,热播剧推荐,日韩好剧,日韩影视,电视剧在线观看">
+  <meta name="renderer" content="webkit">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="page-shell">
+    
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="logo" href="index.html" aria-label="日韩好剧">
+      <span class="logo-mark">▶</span>
+      <span class="logo-text">
+        <strong>日韩好剧</strong>
+        <em>高清剧集大全</em>
+      </span>
+    </a>
+    <nav class="desktop-nav">
+      <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类</a><a class="nav-link" href="category/hot-recommend.html">热播推荐</a><a class="nav-link" href="category/hd-movie.html">高清电影</a><a class="nav-link" href="category/classic-theater.html">经典剧场</a><a class="nav-link" href="category/drama-series.html">剧集连播</a><a class="nav-link" href="ranking.html">排行榜</a>
+    </nav>
+    <form class="header-search site-search-form" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="展开菜单" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" hidden>
+    <form class="mobile-search site-search-form" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <nav class="mobile-nav">
+      <a class="mobile-link" href="index.html">首页</a><a class="mobile-link" href="categories.html">分类</a><a class="mobile-link" href="category/hot-recommend.html">热播推荐</a><a class="mobile-link" href="category/hd-movie.html">高清电影</a><a class="mobile-link" href="category/classic-theater.html">经典剧场</a><a class="mobile-link" href="category/drama-series.html">剧集连播</a><a class="mobile-link" href="ranking.html">排行榜</a>
+    </nav>
+  </div>
+</header>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <div class="breadcrumb"><a href="index.html">首页</a> / 搜索</div>
+          <h1>搜索影片</h1>
+          <p>输入片名、地区、类型或标签，快速找到想看的高清影视内容。</p>
+        </div>
+      </section>
+      <div class="main-content">
+        <div class="container">
+          <div class="filter-panel">
+            <div class="filter-grid">
+              <div class="filter-field">
+                <label>关键词</label>
+                <input type="search" data-search-input placeholder="输入影片关键词">
+              </div>
+              <div class="filter-field">
+                <label>栏目</label>
+                <select data-search-category>
+                  <option value="all">全部栏目</option>
+                  <option value="hot-recommend">热播推荐</option><option value="hd-movie">高清电影</option><option value="classic-theater">经典剧场</option><option value="drama-series">剧集连播</option>
+                </select>
+              </div>
+              <div class="filter-field">
+                <label>年份</label>
+                <select data-search-year>
+                  <option value="all">全部年份</option>
+                  <option value="2030">2030年</option><option value="2029">2029年</option><option value="2028">2028年</option><option value="2027">2027年</option><option value="2026">2026年</option><option value="2025">2025年</option><option value="2024">2024年</option><option value="2023">2023年</option><option value="2022">2022年</option><option value="2021">2021年</option><option value="2020">2020年</option><option value="2019">2019年</option><option value="2018">2018年</option><option value="2017">2017年</option><option value="2016">2016年</option><option value="2015">2015年</option><option value="2014">2014年</option><option value="2013">2013年</option><option value="2012">2012年</option><option value="2011">2011年</option><option value="2010">2010年</option><option value="2009">2009年</option><option value="2008">2008年</option><option value="2007">2007年</option><option value="2006">2006年</option><option value="2005">2005年</option><option value="2004">2004年</option><option value="2003">2003年</option><option value="2002">2002年</option><option value="2001">2001年</option><option value="2000">2000年</option><option value="1999">1999年</option><option value="1998">1998年</option><option value="1997">1997年</option><option value="1996">1996年</option><option value="1995">1995年</option><option value="1994">1994年</option><option value="1993">1993年</option><option value="1992">1992年</option><option value="1991">1991年</option><option value="1990">1990年</option><option value="1989">1989年</option><option value="1988">1988年</option><option value="1987">1987年</option><option value="1986">1986年</option><option value="1985">1985年</option><option value="1984">1984年</option><option value="1982">1982年</option><option value="1981">1981年</option><option value="1980">1980年</option><option value="1978">1978年</option><option value="1977">1977年</option><option value="1976">1976年</option><option value="1975">1975年</option><option value="1974">1974年</option><option value="1973">1973年</option><option value="1971">1971年</option><option value="1970">1970年</option><option value="1967">1967年</option><option value="1966">1966年</option><option value="1965">1965年</option><option value="1964">1964年</option><option value="1963">1963年</option><option value="1962">1962年</option><option value="1960">1960年</option><option value="1959">1959年</option><option value="1958">1958年</option><option value="1954">1954年</option><option value="1952">1952年</option><option value="1945">1945年</option><option value="1934">1934年</option><option value="1931">1931年</option>
+                </select>
+              </div>
+              <a class="btn-soft" href="categories.html">浏览分类</a>
+            </div>
+          </div>
+          <p class="search-status" data-search-status></p>
+          <div class="poster-grid" data-search-grid></div>
+        </div>
+      </div>
+    </main>
+    
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo"><span>▶</span><strong>日韩好剧</strong></div>
+      <p>日韩好剧提供日韩电视剧大全，免费在线观看高清视频，汇集热播日韩剧情片、经典日本韩国电影电视剧，支持高清流畅播放。精选日韩影视作品，满足您的观影需求。</p>
+    </div>
+    <div>
+      <h3>快速入口</h3>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类总览</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="search.html">搜索</a>
+      </div>
+    </div>
+    <div>
+      <h3>精选栏目</h3>
+      <div class="footer-links">
+        <a href="category/hot-recommend.html">热播推荐</a><a href="category/hd-movie.html">高清电影</a><a href="category/classic-theater.html">经典剧场</a><a href="category/drama-series.html">剧集连播</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 日韩好剧. 高清影视内容导航。</div>
+</footer>
+  </div>
+<script src="assets/js/movies.js"></script>
+<script src="assets/js/search.js"></script>
+
+<script src="assets/js/main.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
